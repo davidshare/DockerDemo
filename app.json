@@ -1,0 +1,17 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+    "SERVER_API": "https://selene-ah-staging.herokuapp.com/api/v1"
+  },
+  "formation": {
+  },
+  "name": "selene-ah-frontend",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
