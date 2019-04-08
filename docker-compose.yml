@@ -1,9 +1,0 @@
-# The version of docker-compose
-version: '3'
-services:
-  app:
-    container_name: selene-app
-    restart: always #if it fails, restart it
-    build: . #  build . means use the current directory
-    ports:
-      - '80:8080'
